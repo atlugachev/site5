@@ -37,10 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
        if (selectedType === 'type1') {
            optionsContainer.style.display = 'none';
-           checkboxContainer.style.display = 'none';
+           checkboxContainer.style.display = 'block';
        } else if (selectedType === 'type2') {
            optionsContainer.style.display = 'block';
-           checkboxContainer.style.display = 'none';
+           checkboxContainer.style.display = 'block';
        } else if (selectedType === 'type3') {
            optionsContainer.style.display = 'none';
            checkboxContainer.style.display = 'block';
